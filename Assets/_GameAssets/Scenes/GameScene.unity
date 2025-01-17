@@ -750,6 +750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a130b2306e2668341b0a519d9ba7cbcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerHealthUI: {fileID: 486295924}
   _maxHealth: 3
 --- !u!4 &94999540
 Transform:
@@ -1696,7 +1697,7 @@ GameObject:
   - component: {fileID: 282110424}
   - component: {fileID: 282110420}
   - component: {fileID: 282110419}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1836,6 +1837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12805234226beb74e902ae961b74b6ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerVisualTransform: {fileID: 8806677709763766112}
 --- !u!1001 &291201834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2129,6 +2131,7 @@ MonoBehaviour:
   _eggCounterUI: {fileID: 62291944}
   _winLoseUI: {fileID: 254184796}
   _maxEggCount: 5
+  _delay: 0.5
 --- !u!4 &320512258
 Transform:
   m_ObjectHideFlags: 0
@@ -4080,7 +4083,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 872f7532a2ded9641b15732e521f8f50, type: 2}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 9083010808563728118, guid: 69ef6ec9a0720ab4181a382ad028a657, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69ef6ec9a0720ab4181a382ad028a657, type: 3}
